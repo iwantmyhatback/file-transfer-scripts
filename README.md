@@ -1,5 +1,8 @@
 # tcp-file-transfer
 
-Simple bash scripts to be used on two machines to facilitate a file transfer using netcat and tcp protocol, just uploaded these so i dont have to keep writing them every time i need to use them.
+Simple bash scripts to be used on two machines to facilitate a file (or directory) transfer for people unfamiliar with CLI commands.
 
-Files will need to be given permissions using `chmod 775 send` or `chmod 775 receive`
+Scripts in 'netcat-file' directory uses `nc` [(netcat)](http://man7.org/linux/man-pages/man1/ncat.1.html) command to transfer files
+Scripts in 'secure-copy-...' directories use the `scp` [(secure copy)](http://man7.org/linux/man-pages/man1/scp.1.html) command
+
+Script files will need to be given permissions using `chmod 775 filename`
