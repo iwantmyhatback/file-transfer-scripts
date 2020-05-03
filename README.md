@@ -1,4 +1,4 @@
-# tcp-file-transfer
+# file-transfer-scripts
 
 Simple bash scripts to be used on two machines to facilitate a file (or directory) transfer for people unfamiliar with CLI commands.
 
